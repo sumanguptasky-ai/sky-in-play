@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Team</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: #007bff;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #007bff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .team-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #007bff;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 auto 15px auto;
+        }
+
+        .member-name {
+            font-size: 1.3rem;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .member-role {
+            font-size: 0.95rem;
+            color: #007bff;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .member-desc {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="main-title">Meet Our Team</h1>
+
+        <!-- 1. Teacher Team Section -->
+        <h2 class="section-title"> website designer</h2>
+        <div class="team-grid">
+            <!-- Member 1 -->
+            <div class="team-card">
+                <div class="profile-img"><img src="suamn.png" width="100px"></div>
+                <h3 class="member-name">Suman kumar gupta</h3>
+                <p class="member-role">Computer Science Teacher</p>
+                <p class="member-desc">Specializes in HTML, CSS, and basic programming concepts.</p>
+            </div>
+
+            <!-- Member 2 -->
+            <div class="team-card">
+                <div class="profile-img"><img src="aaditya.jpeg" width="1000px" height="130"></div>
+                <h3 class="member-name">Aaditya Kumar Gupta</h3>
+                <p class="member-role">law Teacher</p>
+                <p class="member-desc">Passionate about logic, problem solving, and analytical skills.</p>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="team-card">
+                <div class="profile-img"><img src="ritu.jpeg" width="1000px" height="130"> </div>
+                <h3 class="member-name">Ritu Raj</h3>
+                <p class="member-role">law/english introduction</p>
+                <p class="member-desc">Focuses on communication, grammar, and literature studies.</p>
+            </div>
+        </div>
+
+        <!-- 2. Organizer Team Section -->
+        <h2 class="section-title">Organizer Team</h2>
+        <div class="team-grid">
+            <!-- Member 1 -->
+            <div class="team-card">
+                <div class="profile-img"><img src="aaditya.jpeg" width="1000px" height="130"></div>
+                <h3 class="member-name">Aaditya Gupta</h3>
+                <p class="member-role">Lead Organizer & Event Manager</p>
+                <p class="member-desc">Handles event execution, team management, and operations.</p>
+            </div>
+
+            <!-- Member 2 -->
+            <div class="team-card">
+                <div class="profile-img"><img src="suamn.png" width="100px"></div>
+                <h3 class="member-name">Suman Gupta</h3>
+                <p class="member-role">Technical Coordinator</p>
+                <p class="member-desc">Manages website functionality, setup, and digital tools.</p>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="team-card">
+                <div class="profile-img"><img src="ritu.jpeg" width="1000px" height="130"> </div>
+                <h3 class="member-name">Ritu Raj</h3>
+                <p class="member-role">Student Coordinator</p>
+                <p class="member-desc">Assists students, manages queries, and handles support.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
